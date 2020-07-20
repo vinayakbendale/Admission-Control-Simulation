@@ -42,4 +42,7 @@ S - shadowing
 F - Fading
 
 
-Shadowing values are found using Log-Normal distribution with 0 db mean and SD of 2 dB<sup>2</sup>
+Shadowing values are found using Log-Normal distribution with 0 db mean and SD of 2 dB<sup>2</sup>. Shadowing values are independent of time, so they are calculated only once at the start of for each 10m by 10m squares in the circle.
+
+Fading values are obtained for every second using Rayleigh Distribution. 
+    F = 20 * log<sub>10</sub>x, where x is the Rayleigh value.
