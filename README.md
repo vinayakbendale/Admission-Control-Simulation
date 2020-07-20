@@ -46,3 +46,7 @@ Shadowing values are found using Log-Normal distribution with 0 db mean and SD o
 
 Fading values are obtained for every second using Rayleigh Distribution. 
     F = 20 * log<sub>10</sub>x, where x is the Rayleigh value.
+    
+Signal Level = RSL + System Processor Gain
+
+Interference Level = RSL + 10 * log<sub>10</sub>(N-1), where N = number of users on the cell
