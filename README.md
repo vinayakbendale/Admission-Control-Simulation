@@ -42,4 +42,4 @@ S - shadowing
 F - Fading
 
 
-Shadowing values are found using Log-Normal distribution with 0 db mean and SD of 2 dB^2
+Shadowing values are found using Log-Normal distribution with 0 db mean and SD of 2 dB<sup>2</sup>
