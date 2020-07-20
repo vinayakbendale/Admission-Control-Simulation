@@ -13,23 +13,23 @@ Python code for simulating admission control in a single cell cellular network. 
 
 
 **CDMA system parameters**:
--Carrier Bandwidth: 1.25 MHz
--Bit Rate: 12.5 kbps
--Processor Gain: 20 dB
--Noise Level: -110 dBm
--Required SINR: 6 dB
--Minimum Pilot RSL: -107 dBm
--Number of Available Traffic Channels: 56
--Maximum cell radius: 10 km
+- Carrier Bandwidth: 1.25 MHz
+- Bit Rate: 12.5 kbps
+- Processor Gain: 20 dB
+- Noise Level: -110 dBm
+- Required SINR: 6 dB
+- Minimum Pilot RSL: -107 dBm
+- Number of Available Traffic Channels: 56
+- Maximum cell radius: 10 km
 
 Users can appear anywhere within the 10 km radius with equal probability and try to make calls randomly during the simulation. 
 
 Users appear at any time with equal probability (i.e. uniformly distrubed inside the circle) and are assumed to be stationary until the call ends.
 Call lengths are exponentially distributed about the average call duration. 
 
--Call Arrival Rate: λ= 6 calls per hour
--Average Call Duration: 1 minute
--Number of Users: 1000
+- Call Arrival Rate: λ= 6 calls per hour
+- Average Call Duration: 1 minute
+- Number of Users: 1000
 
 The simulation is to run for 2 hours with time step increments of 1 second. 
 
